@@ -13,4 +13,5 @@ urlpatterns = [
     path('index', views.index),
     path('', include(router.urls)),
     path('api-auth/', include("rest_framework.urls")),
+    path('concatenate', views.concatenate),
 ]
